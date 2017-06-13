@@ -4,13 +4,13 @@
 
 
 ####Part 1: Gulp的使用
-全局安装 gulp：
-$ npm install --global gul
-作为项目的开发依赖（devDependencies）安装：
-$ npm install --save-dev gulp
-运行 gulp task：
-$ gulp minify
-现有的gulpfile文件中只包含了对js和css文件的压缩
+* 全局安装 gulp：
+* $ npm install --global gulp
+* 作为项目的开发依赖（devDependencies）安装：
+* $ npm install --save-dev gulp
+* 运行 gulp task：
+* $ gulp minify
+* 现有的gulpfile文件中只包含了对js和css文件的压缩
 
 
 
