@@ -11,6 +11,8 @@
 * 运行 gulp task：
 * $ gulp minify
 * 现有的gulpfile文件中只包含了对js和css文件的压缩
+
+
 ###Part 2: index.html和views/js/main.js中的优化
 
 #### index.html中的优化
@@ -24,3 +26,6 @@
 * 当要大量获取网页元素的时候使用 getElementsByClassName 来提高获取的速度。
 * 对于源文件中一些重复获取的元素，可以只获取一次将它保存在一个变量中，其它地方都通过访问这个变量来获取需要的值
 * 对于一些循环中复杂的计算 移到循环外部，避免强制布局
+### 测试
+ 打开src目录中的index.html文件，
+ 然后选择Cam's Pizzeria对pizza website进行测试。
